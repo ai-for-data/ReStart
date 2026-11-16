@@ -3,7 +3,6 @@
 The release presentation uses method-level names. This file preserves implementation provenance; it does not claim that ReStart developed its upstream components.
 
 - Frozen robot-policy integration: [UniWAM](https://github.com/UniWAM/UniWAM).
-- Expert inversion reference: [FlowDAgger](https://github.com/microsoft/FlowDAgger).
 - Released context predictor: [TabICLv2](https://github.com/soda-inria/tabicl). The SCM background illustration summarizes [§5 of its paper](https://arxiv.org/html/2602.11139v1#S5), including random root propagation and column extraction. It does not add Gaussian noise at every node to the default v2 recipe.
 - Simulation benchmark: [RoboTwin](https://github.com/RoboTwin-Platform/RoboTwin).
 
