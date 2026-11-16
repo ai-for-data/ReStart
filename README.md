@@ -4,11 +4,13 @@
 
 **Adapt a frozen world-action model through its sampling start point.**
 
+**Related project: [Inpriora](https://github.com/ai-for-data/inpriora)** — a pretrained tabular foundation model for in-context classification and regression.
+
+[How it works](docs/method.md) · [Results](docs/results.md) · [Integration](docs/reproduction.md) · [Static illustrations](docs/assets/README.md)
+
 ReStart turns expert demonstrations into an inference-time context. It inverts demonstrated actions into starting noise, predicts a start for the current situation, and lets the frozen policy generate the action through its existing sampling process.
 
 ![ReStart: expert context, conditional prediction, native action sampling](docs/assets/restart-context.gif)
-
-[How it works](docs/method.md) · [Results](docs/results.md) · [Integration](docs/reproduction.md) · [Static illustrations](docs/assets/README.md)
 
 ## Context adaptation without policy updates
 
