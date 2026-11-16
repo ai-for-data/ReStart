@@ -1,0 +1,19 @@
+README.md
+  s_cad9e1643933db::t_5e620d30a98794 7-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a5ede34aa9cae839e7a6913d5958d79c39fbe4a3",
+  "prompts": {},
+  "sessions": {
+    "s_cad9e1643933db": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18184-0a77-7ce3-aba5-ff41e57d184d",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "黄伟达 <lc566096@antgroup.com>"
+    }
+  }
+}
