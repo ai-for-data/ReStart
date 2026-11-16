@@ -1,0 +1,20 @@
+{
+  "benchmark": "RoboTwin 2.0",
+  "tasks_per_condition": 50,
+  "episodes_per_task_condition": 100,
+  "SFT_provenance": "authors reported, not a local reproduction",
+  "conditions": {
+    "demo_clean": {
+      "restart_percent": 80.74,
+      "authors_reported_sft_percent": 75.14
+    },
+    "demo_randomized": {
+      "restart_percent": 80.82,
+      "authors_reported_sft_percent": 68.32
+    }
+  },
+  "source": {
+    "path": "results/robotwin-50.csv",
+    "sha256": "98d9e562b823e4d1c9ec63304b585fdc194c824c6990a5d9ba253d9bfb2adc3b"
+  }
+}

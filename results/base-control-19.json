@@ -1,0 +1,343 @@
+{
+  "scope": "19 fixed tasks, 100 episodes per task and condition; distinct from the 50-task aggregate.",
+  "summaries": {
+    "demo_clean": {
+      "tasks": 19,
+      "episodes_per_method": 1900,
+      "Base_mean_percent": 74.10526315789474,
+      "Action_mean_percent": 81.84210526315789,
+      "Action_minus_Base_pp": 7.7368421052631575,
+      "exact_mean_fractions": {
+        "Base": "1408/19",
+        "Action": "1555/19",
+        "difference": "147/19"
+      },
+      "Action_wins_tasks": 11,
+      "ties_tasks": 3,
+      "Base_wins_tasks": 5
+    },
+    "demo_randomized": {
+      "tasks": 19,
+      "episodes_per_method": 1900,
+      "Base_mean_percent": 73.52631578947368,
+      "Action_mean_percent": 83.42105263157895,
+      "Action_minus_Base_pp": 9.894736842105264,
+      "exact_mean_fractions": {
+        "Base": "1397/19",
+        "Action": "1585/19",
+        "difference": "188/19"
+      },
+      "Action_wins_tasks": 14,
+      "ties_tasks": 4,
+      "Base_wins_tasks": 1
+    }
+  },
+  "rows": [
+    {
+      "task": "adjust_bottle",
+      "condition": "demo_clean",
+      "Base_successes": 94,
+      "Action_successes": 97,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 3
+    },
+    {
+      "task": "beat_block_hammer",
+      "condition": "demo_clean",
+      "Base_successes": 68,
+      "Action_successes": 79,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 11
+    },
+    {
+      "task": "click_alarmclock",
+      "condition": "demo_clean",
+      "Base_successes": 100,
+      "Action_successes": 100,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 0
+    },
+    {
+      "task": "click_bell",
+      "condition": "demo_clean",
+      "Base_successes": 100,
+      "Action_successes": 100,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 0
+    },
+    {
+      "task": "grab_roller",
+      "condition": "demo_clean",
+      "Base_successes": 100,
+      "Action_successes": 100,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 0
+    },
+    {
+      "task": "handover_block",
+      "condition": "demo_clean",
+      "Base_successes": 1,
+      "Action_successes": 70,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 69
+    },
+    {
+      "task": "handover_mic",
+      "condition": "demo_clean",
+      "Base_successes": 80,
+      "Action_successes": 78,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": -2
+    },
+    {
+      "task": "move_can_pot",
+      "condition": "demo_clean",
+      "Base_successes": 38,
+      "Action_successes": 58,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 20
+    },
+    {
+      "task": "move_pillbottle_pad",
+      "condition": "demo_clean",
+      "Base_successes": 70,
+      "Action_successes": 67,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": -3
+    },
+    {
+      "task": "move_playingcard_away",
+      "condition": "demo_clean",
+      "Base_successes": 89,
+      "Action_successes": 91,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 2
+    },
+    {
+      "task": "move_stapler_pad",
+      "condition": "demo_clean",
+      "Base_successes": 42,
+      "Action_successes": 65,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 23
+    },
+    {
+      "task": "pick_diverse_bottles",
+      "condition": "demo_clean",
+      "Base_successes": 59,
+      "Action_successes": 75,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 16
+    },
+    {
+      "task": "place_a2b_left",
+      "condition": "demo_clean",
+      "Base_successes": 92,
+      "Action_successes": 88,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": -4
+    },
+    {
+      "task": "place_a2b_right",
+      "condition": "demo_clean",
+      "Base_successes": 91,
+      "Action_successes": 89,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": -2
+    },
+    {
+      "task": "place_bread_skillet",
+      "condition": "demo_clean",
+      "Base_successes": 76,
+      "Action_successes": 80,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 4
+    },
+    {
+      "task": "place_container_plate",
+      "condition": "demo_clean",
+      "Base_successes": 98,
+      "Action_successes": 100,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 2
+    },
+    {
+      "task": "place_empty_cup",
+      "condition": "demo_clean",
+      "Base_successes": 95,
+      "Action_successes": 96,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 1
+    },
+    {
+      "task": "scan_object",
+      "condition": "demo_clean",
+      "Base_successes": 55,
+      "Action_successes": 51,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": -4
+    },
+    {
+      "task": "turn_switch",
+      "condition": "demo_clean",
+      "Base_successes": 60,
+      "Action_successes": 71,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 11
+    },
+    {
+      "task": "adjust_bottle",
+      "condition": "demo_randomized",
+      "Base_successes": 93,
+      "Action_successes": 98,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 5
+    },
+    {
+      "task": "beat_block_hammer",
+      "condition": "demo_randomized",
+      "Base_successes": 61,
+      "Action_successes": 78,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 17
+    },
+    {
+      "task": "click_alarmclock",
+      "condition": "demo_randomized",
+      "Base_successes": 99,
+      "Action_successes": 99,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 0
+    },
+    {
+      "task": "click_bell",
+      "condition": "demo_randomized",
+      "Base_successes": 100,
+      "Action_successes": 100,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 0
+    },
+    {
+      "task": "grab_roller",
+      "condition": "demo_randomized",
+      "Base_successes": 100,
+      "Action_successes": 100,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 0
+    },
+    {
+      "task": "handover_block",
+      "condition": "demo_randomized",
+      "Base_successes": 3,
+      "Action_successes": 65,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 62
+    },
+    {
+      "task": "handover_mic",
+      "condition": "demo_randomized",
+      "Base_successes": 93,
+      "Action_successes": 94,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 1
+    },
+    {
+      "task": "move_can_pot",
+      "condition": "demo_randomized",
+      "Base_successes": 45,
+      "Action_successes": 56,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 11
+    },
+    {
+      "task": "move_pillbottle_pad",
+      "condition": "demo_randomized",
+      "Base_successes": 69,
+      "Action_successes": 73,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 4
+    },
+    {
+      "task": "move_playingcard_away",
+      "condition": "demo_randomized",
+      "Base_successes": 84,
+      "Action_successes": 97,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 13
+    },
+    {
+      "task": "move_stapler_pad",
+      "condition": "demo_randomized",
+      "Base_successes": 51,
+      "Action_successes": 69,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 18
+    },
+    {
+      "task": "pick_diverse_bottles",
+      "condition": "demo_randomized",
+      "Base_successes": 43,
+      "Action_successes": 63,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 20
+    },
+    {
+      "task": "place_a2b_left",
+      "condition": "demo_randomized",
+      "Base_successes": 81,
+      "Action_successes": 92,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 11
+    },
+    {
+      "task": "place_a2b_right",
+      "condition": "demo_randomized",
+      "Base_successes": 89,
+      "Action_successes": 93,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 4
+    },
+    {
+      "task": "place_bread_skillet",
+      "condition": "demo_randomized",
+      "Base_successes": 71,
+      "Action_successes": 81,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 10
+    },
+    {
+      "task": "place_container_plate",
+      "condition": "demo_randomized",
+      "Base_successes": 98,
+      "Action_successes": 98,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 0
+    },
+    {
+      "task": "place_empty_cup",
+      "condition": "demo_randomized",
+      "Base_successes": 99,
+      "Action_successes": 98,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": -1
+    },
+    {
+      "task": "scan_object",
+      "condition": "demo_randomized",
+      "Base_successes": 58,
+      "Action_successes": 61,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 3
+    },
+    {
+      "task": "turn_switch",
+      "condition": "demo_randomized",
+      "Base_successes": 60,
+      "Action_successes": 70,
+      "episodes_each": 100,
+      "Action_minus_Base_pp": 10
+    }
+  ],
+  "not_a_full50_Base_control": true,
+  "includes_post_cutoff_results": true
+}

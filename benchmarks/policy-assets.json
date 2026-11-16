@@ -1,0 +1,12 @@
+{
+  "uniwam": {
+    "source_url": "https://github.com/UniWAM/UniWAM.git",
+    "source_revision": "8dcd3401bccda8c002fc558e356b975b1789eecd",
+    "source_directory": ".deps/upstream/UniWAM",
+    "checkpoint_repo": "chenpyyy/UniWAM-base",
+    "checkpoint_revision": "1b0fa99836f8311475baaffae0c35f1c86facb86",
+    "checkpoint_directory": ".deps/checkpoints/UniWAM-base",
+    "weight_file": "mp_rank_00_model_states.pt",
+    "weight_sha256": "7017c83c20493d7ab1ca257c483113112b58e14e929503ed464f27931a2c0bb0"
+  }
+}

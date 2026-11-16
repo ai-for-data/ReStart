@@ -1,0 +1,43 @@
+\documentclass{article}\usepackage[paperwidth=36cm,paperheight=8cm,margin=0.3cm]{geometry}\usepackage{amsmath,amssymb,xcolor}\pagestyle{empty}\definecolor{ink}{HTML}{E5EFF5}\begin{document}\color{ink}\fontsize{22}{28}\selectfont
+\null\vfill\[\mathcal{T}=\{(c_i,\varepsilon_i^*)\}_{i=1}^{N}\]\vfill\null
+\newpage
+\null\vfill\[(c_i,\varepsilon_i^*)\]\vfill\null
+\newpage
+\null\vfill\[\widehat{\varepsilon}=F(c\mid\mathcal{T})\]\vfill\null
+\newpage
+\null\vfill\[c=R_\theta(u)\]\vfill\null
+\newpage
+\null\vfill\[x_0=h+\sigma\widehat{\varepsilon}\]\vfill\null
+\newpage
+\null\vfill\[\widehat a=G_\theta(u,\widehat\varepsilon)\]\vfill\null
+\newpage
+\null\vfill\[\Delta\theta=0,\quad\Delta\phi=0\]\vfill\null
+\newpage
+\null\vfill\[\mathcal{T}\leftarrow\mathcal{T}\cup\{(c_{\rm new},\varepsilon_{\rm new}^*)\}\]\vfill\null
+\newpage
+\null\vfill\[x_{k+1}=x_k+\Delta t_k\,v_\theta(x_k,u,t_k)\]\vfill\null
+\newpage
+\null\vfill\[x_k^{(j+1)}=x_{k+1}-\Delta t_k\,v_\theta(x_k^{(j)},u,t_k)\]\vfill\null
+\newpage
+\null\vfill\[\varepsilon^*=(x_0^*-h)/\sigma\]\vfill\null
+\newpage
+\null\vfill\[r=\operatorname{MSE}\!\left(G_\theta(u,\varepsilon^*),a^*\right)\]\vfill\null
+\newpage
+\null\vfill\[r\leq\tau\;\Longrightarrow\;(c,\varepsilon^*)\in\mathcal{T}\]\vfill\null
+\newpage
+\null\vfill\[x_K=a^*\]\vfill\null
+\newpage
+\null\vfill\[U\sim P_U,\qquad H_j=f_j(H_{\mathrm{pa}(j)})\]\vfill\null
+\newpage
+\null\vfill\[X_1=2U+1\]\vfill\null
+\newpage
+\null\vfill\[X_2=U+2\]\vfill\null
+\newpage
+\null\vfill\[y=X_1-X_2\]\vfill\null
+\newpage
+\null\vfill\[(X,y)=\operatorname{SelectColumns}(H)\]\vfill\null
+\newpage
+\null\vfill\[\mathcal{D}\sim p_{\rm synthetic}(\mathcal{D})\]\vfill\null
+\newpage
+\null\vfill\[\phi^*=\arg\min_\phi\;\mathbb{E}_{\mathcal D}\!\left[\mathcal L\!\left(F_\phi(X_q\mid X_s,y_s),y_q\right)\right]\]\vfill\null
+\end{document}

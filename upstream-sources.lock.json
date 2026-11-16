@@ -1,0 +1,36 @@
+{
+  "kind": "release-upstream-sources.v1",
+  "note": "Pristine upstream source revisions used by the included integrations. Restore each source at its recorded relative path.",
+  "repositories": [
+    {
+      "name": "FlowDAgger",
+      "path": ".deps/upstream/FlowDAgger",
+      "url": "https://github.com/microsoft/FlowDAgger.git",
+      "revision": "3426f246510fd67a9e39c3c08bd5b02d586ad688"
+    },
+    {
+      "name": "RoboTwin-main",
+      "path": ".deps/upstream/RoboTwin-main",
+      "url": "https://github.com/RoboTwin-Platform/RoboTwin.git",
+      "revision": "ea8b21121ebb3cd201ff5b3fe361944ac94eda3f"
+    },
+    {
+      "name": "TabICL",
+      "path": ".deps/upstream/TabICL",
+      "url": "https://github.com/soda-inria/tabicl.git",
+      "revision": "d83091b845a8c5f7c087bd54964f755a9e560f45"
+    },
+    {
+      "name": "TabICL-pr87",
+      "path": ".deps/upstream/TabICL-pr87",
+      "url": "https://github.com/soda-inria/tabicl.git",
+      "revision": "d587fdcedcde83c64f3dd15fdfdd4fd165d38da4"
+    },
+    {
+      "name": "UniWAM",
+      "path": ".deps/upstream/UniWAM",
+      "url": "https://github.com/UniWAM/UniWAM.git",
+      "revision": "8dcd3401bccda8c002fc558e356b975b1789eecd"
+    }
+  ]
+}
