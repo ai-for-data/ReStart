@@ -1,0 +1,23 @@
+README.md
+  s_cad9e1643933db::t_9cc2638461ea09 38,45-100
+results/robotwin-task-performance.svg
+  s_cad9e1643933db::t_9cc2638461ea09 1-1231
+scripts/render_performance.py
+  s_cad9e1643933db::t_9cc2638461ea09 1-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9c3644b85b6f84314a3ce793c83f795fb3e5a63b",
+  "prompts": {},
+  "sessions": {
+    "s_cad9e1643933db": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18184-0a77-7ce3-aba5-ff41e57d184d",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "黄伟达 <lc566096@antgroup.com>"
+    }
+  }
+}
