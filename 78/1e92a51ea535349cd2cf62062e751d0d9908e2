@@ -1,0 +1,25 @@
+results/robotwin-published-methods.svg
+  s_cad9e1643933db::t_f29a46c0fa88db 1-350
+results/published-methods.json
+  s_cad9e1643933db::t_f29a46c0fa88db 1-185
+scripts/render_published_comparison.py
+  s_cad9e1643933db::t_f29a46c0fa88db 1-65
+README.md
+  s_cad9e1643933db::t_7c5d67e8fc05c6 36-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "781e92a51ea535349cd2cf62062e751d0d9908e2",
+  "prompts": {},
+  "sessions": {
+    "s_cad9e1643933db": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18184-0a77-7ce3-aba5-ff41e57d184d",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "黄伟达 <lc566096@antgroup.com>"
+    }
+  }
+}
