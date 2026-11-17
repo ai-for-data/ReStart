@@ -49,3 +49,31 @@ fig.text(.055,.012,'SFT is author-reported, not a local reproduction. Source: re
 for ext in ['png','svg']:
     fig.savefig(ROOT / f'results/robotwin-task-performance.{ext}',dpi=180)
 plt.close(fig)
+
+# Match the manuscript's clean/randomized scatter comparison, with one panel per method.
+fig, axes = plt.subplots(1, 2, figsize=(12, 6.6), sharex=True, sharey=True, facecolor=bg)
+fig.subplots_adjust(left=.08, right=.97, bottom=.20, top=.78, wspace=.18)
+fig.text(.08,.94,'Clean → randomized scenes',fontsize=23,weight='bold')
+fig.text(.08,.885,'Each point is one task · 50 tasks · identical axes in both panels',fontsize=11,color='#b8c8d8')
+for ax, field, title, color, marker in zip(axes,
+        ['authors_reported_sft_percent', 'restart_successes'],
+        ['Fine-tuned UniWAM · authors’ report', 'ReStart · frozen UniWAM-base'],
+        [sft, ours], ['s', 'o']):
+    clean = [float(data[t]['demo_clean'][field]) for t in order]
+    randomized = [float(data[t]['demo_randomized'][field]) for t in order]
+    ax.set_facecolor(bg)
+    ax.plot([0,100],[0,100],color='#70859a',linestyle='--',linewidth=1,zorder=1)
+    ax.scatter(clean,randomized,s=49,c=color,marker=marker,edgecolors=bg,linewidths=.7,alpha=.85,zorder=3)
+    ax.set_xlim(-3,104);ax.set_ylim(-3,104);ax.set_aspect('equal')
+    ax.set_xticks([0,20,40,60,80,100]);ax.set_yticks([0,20,40,60,80,100])
+    ax.set_xlabel('Clean success (%)',labelpad=10)
+    ax.set_title(title,fontsize=12,pad=13)
+    ax.grid(color=grid,linewidth=.6);ax.set_axisbelow(True)
+    ax.tick_params(length=0)
+    for spine in ax.spines.values():spine.set_visible(False)
+axes[0].set_ylabel('Randomized success (%)',labelpad=10)
+fig.text(.08,.09,'Above the diagonal: higher success in randomized scenes. Below: lower success.',fontsize=10,color='#b8c8d8')
+fig.text(.08,.045,'SFT is author-reported, not a local reproduction. Coincident points may overlap.',fontsize=9,color='#8fa5b8')
+for ext in ['png','svg']:
+    fig.savefig(ROOT / f'results/robotwin-clean-randomized-scatter.{ext}',dpi=180)
+plt.close(fig)

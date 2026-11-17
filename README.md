@@ -33,6 +33,12 @@ The released Action-only evaluation covers **50 tasks × 2 conditions × 100 epi
 
 The fine-tuned reference is taken from the authors' report, not a reproduction on our evaluation stack. See [per-task counts](results/robotwin-50.csv) and [comparison scope](docs/results.md). The separate frozen-Base control covers **19 tasks**; its findings do not establish a full-benchmark Base comparison.
 
+### Clean vs. randomized scenes
+
+![Clean versus randomized success for SFT and ReStart](results/robotwin-clean-randomized-scatter.png)
+
+Each point is one task. Both panels use the same axes; the dashed diagonal marks equal clean and randomized success. [Vector figure](results/robotwin-clean-randomized-scatter.svg).
+
 ### Per-task results
 
 ![Per-task RoboTwin success-rate comparison](results/robotwin-task-performance.png)
