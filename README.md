@@ -33,6 +33,19 @@ The released Action-only evaluation covers **50 tasks × 2 conditions × 100 epi
 
 The fine-tuned reference is taken from the authors' report, not a reproduction on our evaluation stack. See [per-task counts](results/robotwin-50.csv) and [comparison scope](docs/results.md). The separate frozen-Base control covers **19 tasks**; its findings do not establish a full-benchmark Base comparison.
 
+### Per-task results
+
+![Per-task RoboTwin success-rate comparison](results/robotwin-task-performance.svg)
+
+The table reports exact ReStart successes out of 100 episodes and the authors’ reported SFT percentages for each task and condition.
+
+<details>
+<summary>Show all 50 task results</summary>
+
+[Full task-by-task table](results/task-table.md) · [CSV data](results/robotwin-50.csv)
+
+</details>
+
 ## Learning to use a context
 
 The context predictor is pretrained on synthetic supervised tasks. At robot adaptation time, it uses expert-derived examples without updating the policy's parameters.

@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1481" viewBox="0 0 1280 1481">
+<rect width="100%" height="100%" fill="#07111f"/>
+<style>text{font-family:Arial,sans-serif;fill:#dbe7f5}.small{font-size:12px}.task{font-size:12px}.title{font-size:20px;font-weight:bold}.axis{stroke:#334155;stroke-width:1}</style>
+<text x="22" y="30" class="title">RoboTwin 2.0 · 50-task success rates (100 episodes per condition)</text>
+<text x="22" y="55" class="small">ReStart counts are exact successes; SFT scores are author-reported percentages.</text>
+<rect x="430" y="65" width="12" height="12" fill="#50d6b2"/>
+<text x="448" y="76" class="small">ReStart clean</text>
+<rect x="620" y="65" width="12" height="12" fill="#f2c66d"/>
+<text x="638" y="76" class="small">SFT clean</text>
+<rect x="810" y="65" width="12" height="12" fill="#63a8ff"/>
+<text x="828" y="76" class="small">ReStart randomized</text>
+<rect x="1000" y="65" width="12" height="12" fill="#e28ac7"/>
+<text x="1018" y="76" class="small">SFT randomized</text>
+<line x1="300.0" y1="82" x2="300.0" y2="1453" class="axis"/>
+<text x="290.0" y="76" class="small">0</text>
+<line x1="470.0" y1="82" x2="470.0" y2="1453" class="axis"/>
+<text x="460.0" y="76" class="small">20</text>
+<line x1="640.0" y1="82" x2="640.0" y2="1453" class="axis"/>
+<text x="630.0" y="76" class="small">40</text>
+<line x1="810.0" y1="82" x2="810.0" y2="1453" class="axis"/>
+<text x="800.0" y="76" class="small">60</text>
+<line x1="980.0" y1="82" x2="980.0" y2="1453" class="axis"/>
+<text x="970.0" y="76" class="small">80</text>
+<line x1="1150.0" y1="82" x2="1150.0" y2="1453" class="axis"/>
+<text x="1140.0" y="76" class="small">100</text>
+<text x="18" y="100" class="task">adjust_bottle</text>
+<rect x="300" y="86.0" width="824.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="90.5" width="612.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="95.0" width="833.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="99.5" width="612.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="127" class="task">beat_block_hammer</text>
+<rect x="300" y="113.0" width="671.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="117.5" width="552.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="122.0" width="663.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="126.5" width="476.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="154" class="task">blocks_ranking_rgb</text>
+<rect x="300" y="140.0" width="722.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="144.5" width="544.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="149.0" width="646.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="153.5" width="569.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="181" class="task">blocks_ranking_size</text>
+<rect x="300" y="167.0" width="289.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="171.5" width="306.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="176.0" width="340.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="180.5" width="323.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="208" class="task">click_alarmclock</text>
+<rect x="300" y="194.0" width="850.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="198.5" width="850.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="203.0" width="841.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="207.5" width="782.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="235" class="task">click_bell</text>
+<rect x="300" y="221.0" width="850.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="225.5" width="850.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="230.0" width="850.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="234.5" width="841.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="262" class="task">dump_bin_bigbin</text>
+<rect x="300" y="248.0" width="824.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="252.5" width="816.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="257.0" width="841.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="261.5" width="799.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="289" class="task">grab_roller</text>
+<rect x="300" y="275.0" width="850.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="279.5" width="850.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="284.0" width="850.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="288.5" width="850.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="316" class="task">handover_block</text>
+<rect x="300" y="302.0" width="595.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="306.5" width="204.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="311.0" width="552.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="315.5" width="153.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="343" class="task">handover_mic</text>
+<rect x="300" y="329.0" width="663.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="333.5" width="756.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="338.0" width="799.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="342.5" width="688.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="370" class="task">hanging_mug</text>
+<rect x="300" y="356.0" width="297.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="360.5" width="136.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="365.0" width="238.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="369.5" width="136.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="397" class="task">lift_pot</text>
+<rect x="300" y="383.0" width="841.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="387.5" width="850.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="392.0" width="833.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="396.5" width="782.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="424" class="task">move_can_pot</text>
+<rect x="300" y="410.0" width="493.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="414.5" width="391.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="419.0" width="476.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="423.5" width="391.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="451" class="task">move_pillbottle_pad</text>
+<rect x="300" y="437.0" width="569.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="441.5" width="663.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="446.0" width="620.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="450.5" width="603.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="478" class="task">move_playingcard_away</text>
+<rect x="300" y="464.0" width="773.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="468.5" width="765.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="473.0" width="824.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="477.5" width="790.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="505" class="task">move_stapler_pad</text>
+<rect x="300" y="491.0" width="552.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="495.5" width="493.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="500.0" width="586.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="504.5" width="450.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="532" class="task">open_laptop</text>
+<rect x="300" y="518.0" width="799.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="522.5" width="765.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="527.0" width="816.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="531.5" width="637.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="559" class="task">open_microwave</text>
+<rect x="300" y="545.0" width="841.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="549.5" width="646.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="554.0" width="841.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="558.5" width="374.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="586" class="task">pick_diverse_bottles</text>
+<rect x="300" y="572.0" width="637.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="576.5" width="646.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="581.0" width="535.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="585.5" width="663.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="613" class="task">pick_dual_bottles</text>
+<rect x="300" y="599.0" width="765.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="603.5" width="782.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="608.0" width="748.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="612.5" width="722.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="640" class="task">place_a2b_left</text>
+<rect x="300" y="626.0" width="748.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="630.5" width="552.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="635.0" width="782.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="639.5" width="544.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="667" class="task">place_a2b_right</text>
+<rect x="300" y="653.0" width="756.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="657.5" width="722.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="662.0" width="790.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="666.5" width="680.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="694" class="task">place_bread_basket</text>
+<rect x="300" y="680.0" width="680.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="684.5" width="714.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="689.0" width="688.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="693.5" width="688.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="721" class="task">place_bread_skillet</text>
+<rect x="300" y="707.0" width="680.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="711.5" width="688.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="716.0" width="688.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="720.5" width="578.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="748" class="task">place_burger_fries</text>
+<rect x="300" y="734.0" width="697.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="738.5" width="807.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="743.0" width="688.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="747.5" width="646.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="775" class="task">place_can_basket</text>
+<rect x="300" y="761.0" width="510.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="765.5" width="306.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="770.0" width="391.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="774.5" width="297.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="802" class="task">place_cans_plasticbox</text>
+<rect x="300" y="788.0" width="714.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="792.5" width="824.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="797.0" width="773.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="801.5" width="731.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="829" class="task">place_container_plate</text>
+<rect x="300" y="815.0" width="850.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="819.5" width="824.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="824.0" width="833.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="828.5" width="790.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="856" class="task">place_dual_shoes</text>
+<rect x="300" y="842.0" width="705.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="846.5" width="739.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="851.0" width="697.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="855.5" width="654.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="883" class="task">place_empty_cup</text>
+<rect x="300" y="869.0" width="816.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="873.5" width="833.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="878.0" width="833.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="882.5" width="799.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="910" class="task">place_fan</text>
+<rect x="300" y="896.0" width="748.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="900.5" width="646.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="905.0" width="714.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="909.5" width="586.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="937" class="task">place_mouse_pad</text>
+<rect x="300" y="923.0" width="459.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="927.5" width="501.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="932.0" width="510.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="936.5" width="467.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="964" class="task">place_object_basket</text>
+<rect x="300" y="950.0" width="697.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="954.5" width="459.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="959.0" width="654.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="963.5" width="425.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="991" class="task">place_object_scale</text>
+<rect x="300" y="977.0" width="722.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="981.5" width="586.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="986.0" width="705.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="990.5" width="544.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1018" class="task">place_object_stand</text>
+<rect x="300" y="1004.0" width="756.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1008.5" width="688.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1013.0" width="722.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1017.5" width="663.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1045" class="task">place_phone_stand</text>
+<rect x="300" y="1031.0" width="671.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1035.5" width="637.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1040.0" width="680.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1044.5" width="544.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1072" class="task">place_shoe</text>
+<rect x="300" y="1058.0" width="833.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1062.5" width="671.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1067.0" width="833.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1071.5" width="671.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1099" class="task">press_stapler</text>
+<rect x="300" y="1085.0" width="841.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1089.5" width="833.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1094.0" width="841.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1098.5" width="816.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1126" class="task">put_bottles_dustbin</text>
+<rect x="300" y="1112.0" width="552.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1116.5" width="374.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1121.0" width="527.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1125.5" width="323.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1153" class="task">put_object_cabinet</text>
+<rect x="300" y="1139.0" width="467.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1143.5" width="340.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1148.0" width="263.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1152.5" width="238.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1180" class="task">rotate_qrcode</text>
+<rect x="300" y="1166.0" width="680.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1170.5" width="391.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1175.0" width="722.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1179.5" width="348.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1207" class="task">scan_object</text>
+<rect x="300" y="1193.0" width="433.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1197.5" width="357.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1202.0" width="518.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1206.5" width="280.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1234" class="task">shake_bottle</text>
+<rect x="300" y="1220.0" width="841.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1224.5" width="756.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1229.0" width="850.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1233.5" width="603.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1261" class="task">shake_bottle_horizontally</text>
+<rect x="300" y="1247.0" width="850.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1251.5" width="782.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1256.0" width="850.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1260.5" width="595.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1288" class="task">stack_blocks_three</text>
+<rect x="300" y="1274.0" width="697.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1278.5" width="629.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1283.0" width="739.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1287.5" width="442.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1315" class="task">stack_blocks_two</text>
+<rect x="300" y="1301.0" width="799.0" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1305.5" width="773.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1310.0" width="816.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1314.5" width="773.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1342" class="task">stack_bowls_three</text>
+<rect x="300" y="1328.0" width="552.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1332.5" width="748.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1337.0" width="637.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1341.5" width="697.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1369" class="task">stack_bowls_two</text>
+<rect x="300" y="1355.0" width="790.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1359.5" width="799.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1364.0" width="816.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1368.5" width="773.5" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1396" class="task">stamp_seal</text>
+<rect x="300" y="1382.0" width="450.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1386.5" width="739.5" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1391.0" width="450.5" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1395.5" width="595.0" height="4" rx="2" fill="#e28ac7"/>
+<text x="18" y="1423" class="task">turn_switch</text>
+<rect x="300" y="1409.0" width="603.5" height="4" rx="2" fill="#50d6b2"/>
+<rect x="300" y="1413.5" width="731.0" height="4" rx="2" fill="#f2c66d"/>
+<rect x="300" y="1418.0" width="595.0" height="4" rx="2" fill="#63a8ff"/>
+<rect x="300" y="1422.5" width="595.0" height="4" rx="2" fill="#e28ac7"/>
+</svg>
