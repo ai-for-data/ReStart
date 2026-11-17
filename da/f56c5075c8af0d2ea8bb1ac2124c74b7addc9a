@@ -1,0 +1,23 @@
+README.md
+  s_cad9e1643933db::t_b196fb84704a7b 36-48
+results/robotwin-task-performance.svg
+  s_cad9e1643933db::t_b196fb84704a7b 1-276
+results/task-table.md
+  s_cad9e1643933db::t_b196fb84704a7b 1-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "daf56c5075c8af0d2ea8bb1ac2124c74b7addc9a",
+  "prompts": {},
+  "sessions": {
+    "s_cad9e1643933db": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18184-0a77-7ce3-aba5-ff41e57d184d",
+        "model": "gpt-6-luna"
+      },
+      "human_author": "黄伟达 <lc566096@antgroup.com>"
+    }
+  }
+}
