@@ -33,6 +33,14 @@ The released Action-only evaluation covers **50 tasks × 2 conditions × 100 epi
 
 The fine-tuned reference is taken from the authors' report, not a reproduction on our evaluation stack. See [per-task counts](results/robotwin-50.csv) and [comparison scope](docs/results.md). The separate frozen-Base control covers **19 tasks**; its findings do not establish a full-benchmark Base comparison.
 
+### Comparison with published methods
+
+![ReStart versus published methods on clean and randomized RoboTwin scenes](results/robotwin-published-methods.png)
+
+Each point is a method or reported variant, averaged over 50 tasks. ReStart is evaluated on frozen UniWAM-base; the other 30 results are author-reported fine-tuned policies, not local reproductions. The dashed line marks equal clean and randomized success.
+
+[Exact scores and sources](results/published-methods.json) · [Vector figure](results/robotwin-published-methods.svg). Published results follow the tables in [PICA-WAM](https://arxiv.org/html/2610.26813), [PrismWAM](https://arxiv.org/html/2610.26564), and [UniWAM](https://arxiv.org/html/2610.02054).
+
 ### Clean vs. randomized scenes
 
 ![Clean versus randomized success for SFT and ReStart](results/robotwin-clean-randomized-scatter.png)

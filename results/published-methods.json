@@ -1,0 +1,185 @@
+{
+ "note": "Published fine-tuned results on RoboTwin 2.0 clean-to-random, 50-task means as reported.",
+ "results": [
+  {
+   "method": "StarVLA",
+   "clean": 46.5,
+   "random": 3.2,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "AHA-WAM",
+   "clean": 64.3,
+   "random": 3.2,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "Fast-WAM",
+   "clean": 77.8,
+   "random": 1.9,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "Copper-Policy",
+   "clean": 70.8,
+   "random": 13.0,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "CSWAM \u2020",
+   "clean": 78.5,
+   "random": 9.4,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "PICA-WAM \u2020",
+   "clean": 88.0,
+   "random": 39.6,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "GR00T-N1.7",
+   "clean": 43.6,
+   "random": 20.7,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "GalaxeaVLA",
+   "clean": 62.7,
+   "random": 12.7,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "Xiaomi-Robotics-0",
+   "clean": 62.9,
+   "random": 18.2,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "EventVLA",
+   "clean": 65.6,
+   "random": 15.7,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "ABot-M0",
+   "clean": 57.4,
+   "random": 30.4,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "X-VLA",
+   "clean": 68.0,
+   "random": 20.9,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "Spatial Forcing",
+   "clean": 77.2,
+   "random": 26.7,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "pi0.5",
+   "clean": 70.7,
+   "random": 46.0,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "GigaBrain-0.7",
+   "clean": 66.8,
+   "random": 67.9,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "Qwen-RobotManip",
+   "clean": 84.7,
+   "random": 69.4,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "X-WAM",
+   "clean": 70.0,
+   "random": 25.8,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "LingBot-VA",
+   "clean": 81.2,
+   "random": 29.8,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "Robust-WAM \u2021",
+   "clean": 81.2,
+   "random": 34.4,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "OLA-Geo",
+   "clean": 83.0,
+   "random": 33.6,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "4D-WAM \u2021",
+   "clean": 81.5,
+   "random": 41.8,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "WorldScape Policy 2.0",
+   "clean": 84.9,
+   "random": 38.5,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "CSWAM",
+   "clean": 84.5,
+   "random": 45.2,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "OpenWAM-alpha",
+   "clean": 89.4,
+   "random": 48.7,
+   "source": "arXiv 2610.26564 Table 1"
+  },
+  {
+   "method": "InternW0-Delta",
+   "clean": 90.0,
+   "random": 71.9,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "PICA-WAM \u2021",
+   "clean": 83.1,
+   "random": 57.0,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "PICA-WAM \u00a7",
+   "clean": 90.7,
+   "random": 74.7,
+   "source": "arXiv 2610.26813 Table 2"
+  },
+  {
+   "method": "PrismWAM",
+   "clean": 87.98,
+   "random": 53.16,
+   "source": "arXiv 2610.26564 Table 1"
+  },
+  {
+   "method": "PrismWAM*",
+   "clean": 91.84,
+   "random": 75.5,
+   "source": "arXiv 2610.26564 Table 1"
+  },
+  {
+   "method": "UniWAM SFT",
+   "clean": 75.14,
+   "random": 68.32,
+   "source": "arXiv 2610.02054 Table 7"
+  }
+ ]
+}
