@@ -8,6 +8,6 @@ The release presentation uses method-level names. This file preserves implementa
 
 Exact source snapshots are recorded in [`upstream-sources.lock.json`](../upstream-sources.lock.json). Code, checkpoints, and datasets retain their respective licenses. This repository does not grant a new license for those materials.
 
-Presentation references include [Hugging Face Daily Papers](https://huggingface.co/papers/trending) and the official project repositories above. The release animations are original code-rendered illustrations. No logos, rollout footage, or upstream artwork were copied.
+Presentation references include [Hugging Face Daily Papers](https://huggingface.co/papers/trending) and the official project repositories above. The release animations are original code-rendered illustrations. The rollout examples reproduce the manuscript’s RoboTwin scene frames; the underlying simulator assets retain their original terms.
 
 Public documentation is not a patent filing or a confidentiality mechanism. The included source remains inspectable.

@@ -1,5 +1,7 @@
 # ReStart
 
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+
 ### Redirect, Don't Rewrite
 
 **Adapt a frozen world-action model through its sampling start point.**
@@ -136,3 +138,7 @@ These animations illustrate the method; they are not recorded robot rollouts or 
 Start with the [integration guide](docs/reproduction.md). This repository contains the adaptation modules, native policy integration, support-library construction, result tables, and illustration source. External policy weights, robot assets, and the upstream simulator are obtained separately from their providers.
 
 [Technical provenance](docs/credits.md) · [Source snapshots](upstream-sources.lock.json) · [Usage notice](NOTICE.md)
+
+## License
+
+Project-owned code and documentation are licensed under the [Apache License 2.0](LICENSE). Third-party code, models, datasets, and assets retain their respective licenses. See [NOTICE](NOTICE.md) and [technical provenance](docs/credits.md).
