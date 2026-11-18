@@ -22,6 +22,14 @@ The frozen policy retains its action representation, history conditioning, and s
 
 ![Expert action inversion](docs/assets/restart-inversion.gif)
 
+## Demonstrations and rollout examples
+
+![Expert demonstrations and ReStart rollouts in clean and randomized scenes](docs/assets/restart-rollout-examples.png)
+
+The same four examples shown in the paper: one clean expert demonstration frame, followed by ReStart rollout frames in clean and randomized scenes. Frames progress left to right within each condition. Each rollout is the first successful episode of its condition; the policy weights stay frozen, and context comes only from clean demonstrations.
+
+[Full-resolution figure](docs/assets/restart-rollout-examples.png) · [Vector layout](docs/assets/restart-rollout-examples.svg)
+
 ## Results on RoboTwin 2.0
 
 The released Action-only evaluation covers **50 tasks × 2 conditions × 100 episodes**.
