@@ -1,0 +1,27 @@
+LICENSE
+  s_cad9e1643933db::t_584136cb03c2ba 1-202
+NOTICE.md
+  s_cad9e1643933db::t_fe4d57b830aa01 3-8
+README.md
+  s_cad9e1643933db::t_e9e49ab2dd0a8a 3-4,141-144
+docs/credits.md
+  s_cad9e1643933db::t_3989bef134e12c 11
+pyproject.toml
+  s_cad9e1643933db::t_1260da2a8be6c9 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c4e3e8c25e5468df0d5b7c64d1c63787168f838c",
+  "prompts": {},
+  "sessions": {
+    "s_cad9e1643933db": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a18184-0a77-7ce3-aba5-ff41e57d184d",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "黄伟达 <lc566096@antgroup.com>"
+    }
+  }
+}
